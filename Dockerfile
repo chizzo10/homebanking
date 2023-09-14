@@ -1,6 +1,6 @@
 FROM gradle:7.6.1-jdk11-alpine
 
-copy . .
+COPY . .
 
 EXPOSE 8080
 
